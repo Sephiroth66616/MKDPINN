@@ -14,9 +14,6 @@
   </a>
 </p>
 
-
-
-
 **MKDPINN** is a novel approach for Remaining Useful Life (RUL) prediction, combining meta-learning, knowledge discovery, and Physics-Informed Neural Networks (PINNs). This repository contains the code for the paper "*Meta-Learning and Knowledge Discovery based Physics-Informed Neural Network for Remaining Useful Life Prediction of Rotating Machinery*".
 
 ## Overview
@@ -161,7 +158,7 @@ The following table compares the performance of MKDPINN with recently published 
 If you use this code in your research, please cite our paper:
 
 ```
-@article{your_paper_citation,
+@article{my_paper_citation,
   title     = {xxxx},
   author    = {xxxx},
   journal   = {xxxx},
