@@ -1,4 +1,7 @@
+![MKDPINN: Meta Learning and Knowledge Discovery-Based Physics-Informed Neural Networks](img%2Fbanner.jpeg)
+
 # MKDPINN: Meta Knowledge Discovery-Based Physics-Informed Neural Networks
+
 <p align="center">
   <a href="https://github.com/Sephiroth66616/MKDPINN">
     <img src="https://img.shields.io/badge/Platform-PyTorch-red" alt="Platform: PyTorch">
@@ -13,7 +16,6 @@
     <img src="https://img.shields.io/github/stars/Sephiroth66616/MKDPINN?style=social" alt="GitHub Stars">
   </a>
 </p>
-
 
 
 **MKDPINN** is a novel approach for Remaining Useful Life (RUL) prediction, combining meta-learning, knowledge discovery, and Physics-Informed Neural Networks (PINNs). This repository contains the code for the paper "*Meta-Learning and Knowledge Discovery based Physics-Informed Neural Network for Remaining Useful Life Prediction of Rotating Machinery*".
