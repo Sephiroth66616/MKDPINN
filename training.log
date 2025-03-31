@@ -1,0 +1,522 @@
+2025-03-18 11:25:22 - Starting model training...
+2025-03-18 11:25:22 - Starting epoch 1/50
+2025-03-18 11:27:23 - Epoch 1 completed. Average task loss: 60.8479
+2025-03-18 11:27:23 - Epoch: 1,   Valid_RUL_RMSE: 15.3388
+2025-03-18 11:27:23 - Test RMSE: 17.5483, Score: 2168.3665 on zero-shot mode
+2025-03-18 11:27:23 - Starting epoch 2/50
+2025-03-18 11:29:19 - Epoch 2 completed. Average task loss: 49.0327
+2025-03-18 11:29:19 - Epoch: 2,   Valid_RUL_RMSE: 14.7200
+2025-03-18 11:29:19 - Test RMSE: 16.8191, Score: 2133.2258 on zero-shot mode
+2025-03-18 11:29:19 - Starting epoch 3/50
+2025-03-18 11:31:23 - Epoch 3 completed. Average task loss: 45.7965
+2025-03-18 11:31:23 - Epoch: 3,   Valid_RUL_RMSE: 14.1751
+2025-03-18 11:31:23 - Test RMSE: 16.3175, Score: 1988.5433 on zero-shot mode
+2025-03-18 11:31:23 - Starting epoch 4/50
+2025-03-18 11:33:20 - Epoch 4 completed. Average task loss: 42.5760
+2025-03-18 11:33:20 - Epoch: 4,   Valid_RUL_RMSE: 13.7928
+2025-03-18 11:33:20 - Test RMSE: 15.9932, Score: 1900.5542 on zero-shot mode
+2025-03-18 11:33:20 - Starting epoch 5/50
+2025-03-18 11:35:21 - Epoch 5 completed. Average task loss: 39.9371
+2025-03-18 11:35:21 - Epoch: 5,   Valid_RUL_RMSE: 13.4168
+2025-03-18 11:35:21 - Test RMSE: 15.6892, Score: 1835.1207 on zero-shot mode
+2025-03-18 11:35:21 - Starting epoch 6/50
+2025-03-18 11:37:20 - Epoch 6 completed. Average task loss: 36.6862
+2025-03-18 11:37:20 - Epoch: 6,   Valid_RUL_RMSE: 13.2204
+2025-03-18 11:37:20 - Test RMSE: 15.5566, Score: 1840.1865 on zero-shot mode
+2025-03-18 11:37:20 - Starting epoch 7/50
+2025-03-18 11:39:16 - Epoch 7 completed. Average task loss: 35.2016
+2025-03-18 11:39:16 - Epoch: 7,   Valid_RUL_RMSE: 12.9404
+2025-03-18 11:39:16 - Test RMSE: 15.3261, Score: 1660.2489 on zero-shot mode
+2025-03-18 11:39:16 - Starting epoch 8/50
+2025-03-18 11:41:14 - Epoch 8 completed. Average task loss: 37.4253
+2025-03-18 11:41:14 - Epoch: 8,   Valid_RUL_RMSE: 12.7524
+2025-03-18 11:41:14 - Test RMSE: 15.1232, Score: 1548.9595 on zero-shot mode
+2025-03-18 11:41:14 - Starting epoch 9/50
+2025-03-18 11:43:17 - Epoch 9 completed. Average task loss: 34.6694
+2025-03-18 11:43:17 - Epoch: 9,   Valid_RUL_RMSE: 12.5885
+2025-03-18 11:43:17 - Test RMSE: 15.0740, Score: 1510.4078 on zero-shot mode
+2025-03-18 11:43:17 - Starting epoch 10/50
+2025-03-18 11:45:22 - Epoch 10 completed. Average task loss: 33.4846
+2025-03-18 11:45:22 - Epoch: 10,   Valid_RUL_RMSE: 12.3597
+2025-03-18 11:45:22 - Test RMSE: 14.8605, Score: 1378.2594 on zero-shot mode
+2025-03-18 11:45:22 - Starting epoch 11/50
+2025-03-18 11:47:31 - Epoch 11 completed. Average task loss: 33.8392
+2025-03-18 11:47:31 - Epoch: 11,   Valid_RUL_RMSE: 12.2726
+2025-03-18 11:47:31 - Test RMSE: 14.7547, Score: 1303.7789 on zero-shot mode
+2025-03-18 11:47:31 - Starting epoch 12/50
+2025-03-18 11:49:37 - Epoch 12 completed. Average task loss: 32.8350
+2025-03-18 11:49:37 - Epoch: 12,   Valid_RUL_RMSE: 12.2148
+2025-03-18 11:49:37 - Test RMSE: 14.7178, Score: 1283.3037 on zero-shot mode
+2025-03-18 11:49:37 - Starting epoch 13/50
+2025-03-18 11:50:13 - Starting model training...
+2025-03-18 11:50:13 - Starting epoch 1/50
+2025-03-18 11:58:42 - Starting model training...
+2025-03-18 11:58:42 - Starting epoch 1/50
+2025-03-18 12:00:37 - Epoch 1 completed. Average task loss: 60.8479
+2025-03-18 12:00:38 - Epoch: 1,   Valid_RUL_RMSE: 15.3388
+2025-03-18 12:00:38 - Test RMSE: 17.5483, Score: 2168.3665 on zero-shot mode
+2025-03-18 12:00:38 - Starting epoch 2/50
+2025-03-18 12:02:26 - Starting model training...
+2025-03-18 12:02:26 - Starting epoch 1/50
+2025-03-18 12:30:10 - Starting model training...
+2025-03-18 12:30:10 - Starting epoch 1/50
+2025-03-18 12:32:06 - Epoch 1 completed. Average task loss: 60.8442
+2025-03-18 12:32:06 - Epoch: 1,   Valid_RUL_RMSE: 15.3386
+2025-03-18 12:32:06 - Test RMSE: 17.5483, Score: 2168.1663 on zero-shot mode
+2025-03-18 12:32:06 - Starting epoch 2/50
+2025-03-18 12:34:04 - Epoch 2 completed. Average task loss: 49.0787
+2025-03-18 12:34:04 - Epoch: 2,   Valid_RUL_RMSE: 14.7253
+2025-03-18 12:34:04 - Test RMSE: 16.8231, Score: 2141.6770 on zero-shot mode
+2025-03-18 12:34:04 - Starting epoch 3/50
+2025-03-18 12:40:32 - Starting model training...
+2025-03-18 12:40:32 - Starting epoch 1/50
+2025-03-18 12:42:21 - Epoch 1 completed. Average task loss: 60.8449
+2025-03-18 12:42:21 - Epoch: 1,   Valid_RUL_RMSE: 15.3386
+2025-03-18 12:42:21 - Test RMSE: 17.5482, Score: 2168.1758 on zero-shot mode
+2025-03-18 12:42:21 - Starting epoch 2/50
+2025-03-18 12:44:05 - Epoch 2 completed. Average task loss: 49.1418
+2025-03-18 12:44:05 - Epoch: 2,   Valid_RUL_RMSE: 14.7135
+2025-03-18 12:44:05 - Test RMSE: 16.8198, Score: 2132.7783 on zero-shot mode
+2025-03-18 12:44:05 - Starting epoch 3/50
+2025-03-18 12:45:49 - Epoch 3 completed. Average task loss: 45.7983
+2025-03-18 12:45:50 - Epoch: 3,   Valid_RUL_RMSE: 14.1574
+2025-03-18 12:45:50 - Test RMSE: 16.3133, Score: 1973.0948 on zero-shot mode
+2025-03-18 12:45:50 - Starting epoch 4/50
+2025-03-18 12:47:32 - Epoch 4 completed. Average task loss: 42.6920
+2025-03-18 12:47:32 - Epoch: 4,   Valid_RUL_RMSE: 13.7849
+2025-03-18 12:47:32 - Test RMSE: 15.9839, Score: 1896.0833 on zero-shot mode
+2025-03-18 12:47:32 - Starting epoch 5/50
+2025-03-18 12:49:13 - Epoch 5 completed. Average task loss: 39.8702
+2025-03-18 12:49:13 - Epoch: 5,   Valid_RUL_RMSE: 13.4161
+2025-03-18 12:49:13 - Test RMSE: 15.6868, Score: 1835.4194 on zero-shot mode
+2025-03-18 12:49:13 - Starting epoch 6/50
+2025-03-18 12:50:56 - Epoch 6 completed. Average task loss: 36.7071
+2025-03-18 12:50:56 - Epoch: 6,   Valid_RUL_RMSE: 13.2183
+2025-03-18 12:50:56 - Test RMSE: 15.5563, Score: 1837.1514 on zero-shot mode
+2025-03-18 12:50:56 - Starting epoch 7/50
+2025-03-18 12:52:38 - Epoch 7 completed. Average task loss: 35.3700
+2025-03-18 12:52:38 - Epoch: 7,   Valid_RUL_RMSE: 12.9461
+2025-03-18 12:52:38 - Test RMSE: 15.3333, Score: 1669.4008 on zero-shot mode
+2025-03-18 12:52:38 - Starting epoch 8/50
+2025-03-18 12:54:19 - Epoch 8 completed. Average task loss: 37.4501
+2025-03-18 12:54:20 - Epoch: 8,   Valid_RUL_RMSE: 12.7530
+2025-03-18 12:54:20 - Test RMSE: 15.1295, Score: 1552.7412 on zero-shot mode
+2025-03-18 12:54:20 - Starting epoch 9/50
+2025-03-18 12:56:00 - Epoch 9 completed. Average task loss: 34.7076
+2025-03-18 12:56:00 - Epoch: 9,   Valid_RUL_RMSE: 12.5767
+2025-03-18 12:56:00 - Test RMSE: 15.0746, Score: 1505.8640 on zero-shot mode
+2025-03-18 12:56:00 - Starting epoch 10/50
+2025-03-18 12:57:41 - Epoch 10 completed. Average task loss: 33.5397
+2025-03-18 12:57:41 - Epoch: 10,   Valid_RUL_RMSE: 12.3740
+2025-03-18 12:57:41 - Test RMSE: 14.8653, Score: 1383.3958 on zero-shot mode
+2025-03-18 12:57:41 - Starting epoch 11/50
+2025-03-18 12:59:23 - Epoch 11 completed. Average task loss: 33.8109
+2025-03-18 12:59:23 - Epoch: 11,   Valid_RUL_RMSE: 12.2711
+2025-03-18 12:59:23 - Test RMSE: 14.7524, Score: 1303.7002 on zero-shot mode
+2025-03-18 12:59:23 - Starting epoch 12/50
+2025-03-18 13:01:04 - Epoch 12 completed. Average task loss: 32.8058
+2025-03-18 13:01:05 - Epoch: 12,   Valid_RUL_RMSE: 12.2153
+2025-03-18 13:01:05 - Test RMSE: 14.7183, Score: 1282.8848 on zero-shot mode
+2025-03-18 13:01:05 - Starting epoch 13/50
+2025-03-18 13:02:47 - Epoch 13 completed. Average task loss: 32.9068
+2025-03-18 13:02:47 - Epoch: 13,   Valid_RUL_RMSE: 12.1627
+2025-03-18 13:02:47 - Test RMSE: 14.7100, Score: 1306.5919 on zero-shot mode
+2025-03-18 13:02:47 - Starting epoch 14/50
+2025-03-18 13:04:31 - Epoch 14 completed. Average task loss: 31.6131
+2025-03-18 13:04:31 - Epoch: 14,   Valid_RUL_RMSE: 12.0518
+2025-03-18 13:04:31 - Test RMSE: 14.5335, Score: 1233.3395 on zero-shot mode
+2025-03-18 13:04:31 - Starting epoch 15/50
+2025-03-18 13:06:17 - Epoch 15 completed. Average task loss: 32.0806
+2025-03-18 13:06:17 - Epoch: 15,   Valid_RUL_RMSE: 12.0435
+2025-03-18 13:06:17 - Test RMSE: 14.5089, Score: 1224.4899 on zero-shot mode
+2025-03-18 13:06:17 - Starting epoch 16/50
+2025-03-18 13:08:05 - Epoch 16 completed. Average task loss: 31.2245
+2025-03-18 13:08:05 - Epoch: 16,   Valid_RUL_RMSE: 12.0730
+2025-03-18 13:08:05 - Test RMSE: 14.3781, Score: 1183.2146 on zero-shot mode
+2025-03-18 13:08:05 - Starting epoch 17/50
+2025-03-18 13:09:46 - Epoch 17 completed. Average task loss: 29.6444
+2025-03-18 13:09:46 - Epoch: 17,   Valid_RUL_RMSE: 11.9962
+2025-03-18 13:09:46 - Test RMSE: 14.3774, Score: 1189.6678 on zero-shot mode
+2025-03-18 13:09:46 - Starting epoch 18/50
+2025-03-18 13:11:27 - Epoch 18 completed. Average task loss: 28.7574
+2025-03-18 13:11:27 - Epoch: 18,   Valid_RUL_RMSE: 11.9359
+2025-03-18 13:11:27 - Test RMSE: 14.3071, Score: 1164.4226 on zero-shot mode
+2025-03-18 13:11:27 - Starting epoch 19/50
+2025-03-18 13:13:08 - Epoch 19 completed. Average task loss: 29.4489
+2025-03-18 13:13:08 - Epoch: 19,   Valid_RUL_RMSE: 11.9418
+2025-03-18 13:13:08 - Test RMSE: 14.2532, Score: 1158.9366 on zero-shot mode
+2025-03-18 13:13:08 - Starting epoch 20/50
+2025-03-18 13:14:50 - Epoch 20 completed. Average task loss: 29.9490
+2025-03-18 13:14:50 - Epoch: 20,   Valid_RUL_RMSE: 11.9506
+2025-03-18 13:14:50 - Test RMSE: 14.3927, Score: 1171.7297 on zero-shot mode
+2025-03-18 13:14:50 - Starting epoch 21/50
+2025-03-18 13:16:31 - Epoch 21 completed. Average task loss: 29.2711
+2025-03-18 13:16:31 - Epoch: 21,   Valid_RUL_RMSE: 12.0092
+2025-03-18 13:16:31 - Test RMSE: 14.3487, Score: 1175.9879 on zero-shot mode
+2025-03-18 13:16:31 - Starting epoch 22/50
+2025-03-18 13:18:13 - Epoch 22 completed. Average task loss: 28.9611
+2025-03-18 13:18:13 - Epoch: 22,   Valid_RUL_RMSE: 11.8884
+2025-03-18 13:18:13 - Test RMSE: 14.1678, Score: 1103.5479 on zero-shot mode
+2025-03-18 13:18:13 - Starting epoch 23/50
+2025-03-18 13:19:54 - Epoch 23 completed. Average task loss: 29.6277
+2025-03-18 13:19:54 - Epoch: 23,   Valid_RUL_RMSE: 11.9350
+2025-03-18 13:19:54 - Test RMSE: 14.1868, Score: 1112.8395 on zero-shot mode
+2025-03-18 13:19:54 - Starting epoch 24/50
+2025-03-18 13:21:35 - Epoch 24 completed. Average task loss: 27.4002
+2025-03-18 13:21:35 - Epoch: 24,   Valid_RUL_RMSE: 11.8898
+2025-03-18 13:21:35 - Test RMSE: 14.1619, Score: 1101.7524 on zero-shot mode
+2025-03-18 13:21:35 - Starting epoch 25/50
+2025-03-18 13:23:16 - Epoch 25 completed. Average task loss: 28.9353
+2025-03-18 13:23:16 - Epoch: 25,   Valid_RUL_RMSE: 11.9253
+2025-03-18 13:23:16 - Test RMSE: 14.1790, Score: 1103.1475 on zero-shot mode
+2025-03-18 13:23:16 - Starting epoch 26/50
+2025-03-18 13:24:58 - Epoch 26 completed. Average task loss: 29.2448
+2025-03-18 13:24:58 - Epoch: 26,   Valid_RUL_RMSE: 11.9262
+2025-03-18 13:24:58 - Test RMSE: 14.2160, Score: 1111.6532 on zero-shot mode
+2025-03-18 13:24:58 - Starting epoch 27/50
+2025-03-18 13:26:39 - Epoch 27 completed. Average task loss: 28.1036
+2025-03-18 13:26:40 - Epoch: 27,   Valid_RUL_RMSE: 11.8942
+2025-03-18 13:26:40 - Test RMSE: 14.2166, Score: 1128.5802 on zero-shot mode
+2025-03-18 13:26:40 - Starting epoch 28/50
+2025-03-18 13:28:21 - Epoch 28 completed. Average task loss: 27.9846
+2025-03-18 13:28:21 - Epoch: 28,   Valid_RUL_RMSE: 11.8089
+2025-03-18 13:28:21 - Test RMSE: 13.9605, Score: 1052.0652 on zero-shot mode
+2025-03-18 13:28:21 - Starting epoch 29/50
+2025-03-18 13:30:03 - Epoch 29 completed. Average task loss: 27.8148
+2025-03-18 13:30:03 - Epoch: 29,   Valid_RUL_RMSE: 11.8273
+2025-03-18 13:30:03 - Test RMSE: 13.8427, Score: 1046.6827 on zero-shot mode
+2025-03-18 13:30:03 - Starting epoch 30/50
+2025-03-18 13:31:45 - Epoch 30 completed. Average task loss: 26.2918
+2025-03-18 13:31:45 - Epoch: 30,   Valid_RUL_RMSE: 11.8154
+2025-03-18 13:31:45 - Test RMSE: 13.7555, Score: 1011.9178 on zero-shot mode
+2025-03-18 13:31:45 - Starting epoch 31/50
+2025-03-18 13:33:27 - Epoch 31 completed. Average task loss: 27.5486
+2025-03-18 13:33:27 - Epoch: 31,   Valid_RUL_RMSE: 11.7773
+2025-03-18 13:33:27 - Test RMSE: 13.7735, Score: 999.4391 on zero-shot mode
+2025-03-18 13:33:27 - Starting epoch 32/50
+2025-03-18 13:35:18 - Epoch 32 completed. Average task loss: 26.4443
+2025-03-18 13:35:18 - Epoch: 32,   Valid_RUL_RMSE: 11.7512
+2025-03-18 13:35:18 - Test RMSE: 13.6704, Score: 979.2640 on zero-shot mode
+2025-03-18 13:35:18 - Starting epoch 33/50
+2025-03-18 13:37:08 - Epoch 33 completed. Average task loss: 25.6896
+2025-03-18 13:37:08 - Epoch: 33,   Valid_RUL_RMSE: 11.8012
+2025-03-18 13:37:08 - Test RMSE: 13.6419, Score: 981.4523 on zero-shot mode
+2025-03-18 13:37:08 - Starting epoch 34/50
+2025-03-18 13:38:57 - Epoch 34 completed. Average task loss: 26.5847
+2025-03-18 13:38:57 - Epoch: 34,   Valid_RUL_RMSE: 11.7543
+2025-03-18 13:38:57 - Test RMSE: 13.5844, Score: 956.9456 on zero-shot mode
+2025-03-18 13:38:57 - Starting epoch 35/50
+2025-03-18 13:40:41 - Epoch 35 completed. Average task loss: 27.3024
+2025-03-18 13:40:41 - Epoch: 35,   Valid_RUL_RMSE: 11.7715
+2025-03-18 13:40:41 - Test RMSE: 13.5857, Score: 970.2021 on zero-shot mode
+2025-03-18 13:40:41 - Starting epoch 36/50
+2025-03-18 13:42:23 - Epoch 36 completed. Average task loss: 26.2602
+2025-03-18 13:42:23 - Epoch: 36,   Valid_RUL_RMSE: 11.8142
+2025-03-18 13:42:23 - Test RMSE: 13.6444, Score: 978.1599 on zero-shot mode
+2025-03-18 13:42:23 - Starting epoch 37/50
+2025-03-18 13:44:05 - Epoch 37 completed. Average task loss: 25.9912
+2025-03-18 13:44:05 - Epoch: 37,   Valid_RUL_RMSE: 11.7570
+2025-03-18 13:44:05 - Test RMSE: 13.5923, Score: 958.4667 on zero-shot mode
+2025-03-18 13:44:05 - Starting epoch 38/50
+2025-03-18 13:45:48 - Epoch 38 completed. Average task loss: 27.0256
+2025-03-18 13:45:48 - Epoch: 38,   Valid_RUL_RMSE: 11.8569
+2025-03-18 13:45:48 - Test RMSE: 13.5423, Score: 956.5452 on zero-shot mode
+2025-03-18 13:45:48 - Starting epoch 39/50
+2025-03-18 13:47:30 - Epoch 39 completed. Average task loss: 26.1438
+2025-03-18 13:47:30 - Epoch: 39,   Valid_RUL_RMSE: 11.8586
+2025-03-18 13:47:30 - Test RMSE: 13.5760, Score: 973.2994 on zero-shot mode
+2025-03-18 13:47:30 - Starting epoch 40/50
+2025-03-18 13:48:00 - Starting model training...
+2025-03-18 13:48:00 - Starting epoch 1/50
+2025-03-18 13:48:19 - Starting model training...
+2025-03-18 13:48:19 - Starting epoch 1/50
+2025-03-18 13:50:11 - Epoch 1 completed. Average task loss: 60.8449
+2025-03-18 13:50:11 - Epoch: 1,   Valid_RUL_RMSE: 15.3386
+2025-03-18 13:50:11 - Test RMSE: 17.5482, Score: 2168.1758 on zero-shot mode
+2025-03-18 13:50:11 - Starting epoch 2/50
+2025-03-18 13:51:57 - Epoch 2 completed. Average task loss: 49.1418
+2025-03-18 13:51:57 - Epoch: 2,   Valid_RUL_RMSE: 14.7135
+2025-03-18 13:51:57 - Test RMSE: 16.8198, Score: 2132.7783 on zero-shot mode
+2025-03-18 13:51:57 - Starting epoch 3/50
+2025-03-18 13:53:43 - Epoch 3 completed. Average task loss: 45.7983
+2025-03-18 13:53:43 - Epoch: 3,   Valid_RUL_RMSE: 14.1574
+2025-03-18 13:53:43 - Test RMSE: 16.3133, Score: 1973.0948 on zero-shot mode
+2025-03-18 13:53:43 - Starting epoch 4/50
+2025-03-18 13:53:58 - Starting model training...
+2025-03-18 13:53:58 - Starting epoch 1/50
+2025-03-18 13:55:41 - Epoch 1 completed. Average task loss: 60.8449
+2025-03-18 13:55:41 - Epoch: 1,   Valid_RUL_RMSE: 15.3386
+2025-03-18 13:55:41 - Test RMSE: 17.5482, Score: 2168.1758 on zero-shot mode
+2025-03-18 13:55:41 - Starting epoch 2/50
+2025-03-18 13:57:34 - Epoch 2 completed. Average task loss: 49.1418
+2025-03-18 13:57:34 - Epoch: 2,   Valid_RUL_RMSE: 14.7135
+2025-03-18 13:57:34 - Test RMSE: 16.8198, Score: 2132.7783 on zero-shot mode
+2025-03-18 13:57:34 - Starting epoch 3/50
+2025-03-18 14:01:03 - Starting model training...
+2025-03-18 14:01:03 - Starting epoch 1/50
+2025-03-18 14:02:50 - Epoch 1 completed. Average task loss: 60.8479
+2025-03-18 14:02:50 - Epoch: 1,   Valid_RUL_RMSE: 15.3388
+2025-03-18 14:02:51 - Test RMSE: 17.5483, Score: 2168.3665 on zero-shot mode
+2025-03-18 14:02:51 - Starting epoch 2/50
+2025-03-18 14:04:37 - Epoch 2 completed. Average task loss: 49.0327
+2025-03-18 14:04:37 - Epoch: 2,   Valid_RUL_RMSE: 14.7200
+2025-03-18 14:04:37 - Test RMSE: 16.8191, Score: 2133.2258 on zero-shot mode
+2025-03-18 14:04:37 - Starting epoch 3/50
+2025-03-18 14:05:40 - Starting model training...
+2025-03-18 14:05:40 - Starting epoch 1/50
+2025-03-18 14:07:46 - Epoch 1 completed. Average task loss: 60.8479
+2025-03-18 14:07:46 - Epoch: 1,   Valid_RUL_RMSE: 15.3388
+2025-03-18 14:07:46 - Test RMSE: 17.5483, Score: 2168.3665 on zero-shot mode
+2025-03-18 14:07:46 - Starting epoch 2/50
+2025-03-18 20:18:37 - Starting model training...
+2025-03-18 20:18:37 - Starting epoch 1/50
+2025-03-18 20:20:44 - Epoch 1 completed. Average task loss: 60.8442
+2025-03-18 20:20:44 - Epoch: 1,   Valid_RUL_RMSE: 15.3386
+2025-03-18 20:20:44 - Test RMSE: 17.5483, Score: 2168.1663 on zero-shot mode
+2025-03-18 20:20:44 - Starting epoch 2/50
+2025-03-18 20:22:50 - Epoch 2 completed. Average task loss: 49.0787
+2025-03-18 20:22:50 - Epoch: 2,   Valid_RUL_RMSE: 14.7253
+2025-03-18 20:22:50 - Test RMSE: 16.8231, Score: 2141.6770 on zero-shot mode
+2025-03-18 20:22:50 - Starting epoch 3/50
+2025-03-18 20:24:53 - Epoch 3 completed. Average task loss: 45.7071
+2025-03-18 20:24:53 - Epoch: 3,   Valid_RUL_RMSE: 14.1557
+2025-03-18 20:24:53 - Test RMSE: 16.3114, Score: 1971.0647 on zero-shot mode
+2025-03-18 20:24:53 - Starting epoch 4/50
+2025-03-18 20:27:03 - Epoch 4 completed. Average task loss: 42.7197
+2025-03-18 20:27:03 - Epoch: 4,   Valid_RUL_RMSE: 13.7883
+2025-03-18 20:27:03 - Test RMSE: 15.9881, Score: 1898.9241 on zero-shot mode
+2025-03-18 20:27:03 - Starting epoch 5/50
+2025-03-18 20:29:10 - Epoch 5 completed. Average task loss: 39.8946
+2025-03-18 20:29:10 - Epoch: 5,   Valid_RUL_RMSE: 13.4172
+2025-03-18 20:29:10 - Test RMSE: 15.6883, Score: 1835.4163 on zero-shot mode
+2025-03-18 20:29:10 - Starting epoch 6/50
+2025-03-18 20:31:32 - Epoch 6 completed. Average task loss: 36.7094
+2025-03-18 20:31:33 - Epoch: 6,   Valid_RUL_RMSE: 13.2199
+2025-03-18 20:31:33 - Test RMSE: 15.5577, Score: 1837.6870 on zero-shot mode
+2025-03-18 20:31:33 - Starting epoch 7/50
+2025-03-18 20:33:41 - Epoch 7 completed. Average task loss: 35.3488
+2025-03-18 20:33:41 - Epoch: 7,   Valid_RUL_RMSE: 12.9441
+2025-03-18 20:33:41 - Test RMSE: 15.3318, Score: 1668.1455 on zero-shot mode
+2025-03-18 20:33:41 - Starting epoch 8/50
+2025-03-18 20:35:50 - Epoch 8 completed. Average task loss: 37.4532
+2025-03-18 20:35:50 - Epoch: 8,   Valid_RUL_RMSE: 12.7545
+2025-03-18 20:35:50 - Test RMSE: 15.1297, Score: 1552.5518 on zero-shot mode
+2025-03-18 20:35:50 - Starting epoch 9/50
+2025-03-18 20:37:59 - Epoch 9 completed. Average task loss: 34.7053
+2025-03-18 20:37:59 - Epoch: 9,   Valid_RUL_RMSE: 12.5752
+2025-03-18 20:37:59 - Test RMSE: 15.0710, Score: 1503.7323 on zero-shot mode
+2025-03-18 20:37:59 - Starting epoch 10/50
+2025-03-18 20:40:06 - Epoch 10 completed. Average task loss: 33.5260
+2025-03-18 20:40:06 - Epoch: 10,   Valid_RUL_RMSE: 12.3678
+2025-03-18 20:40:06 - Test RMSE: 14.8645, Score: 1382.7242 on zero-shot mode
+2025-03-18 20:40:06 - Starting epoch 11/50
+2025-03-18 20:42:11 - Epoch 11 completed. Average task loss: 33.8284
+2025-03-18 20:42:11 - Epoch: 11,   Valid_RUL_RMSE: 12.2694
+2025-03-18 20:42:11 - Test RMSE: 14.7472, Score: 1302.4349 on zero-shot mode
+2025-03-18 20:42:11 - Starting epoch 12/50
+2025-03-18 20:44:23 - Epoch 12 completed. Average task loss: 32.8094
+2025-03-18 20:44:23 - Epoch: 12,   Valid_RUL_RMSE: 12.2133
+2025-03-18 20:44:23 - Test RMSE: 14.7145, Score: 1282.9211 on zero-shot mode
+2025-03-18 20:44:23 - Starting epoch 13/50
+2025-03-18 20:46:25 - Epoch 13 completed. Average task loss: 32.9153
+2025-03-18 20:46:25 - Epoch: 13,   Valid_RUL_RMSE: 12.1622
+2025-03-18 20:46:25 - Test RMSE: 14.7073, Score: 1306.8925 on zero-shot mode
+2025-03-18 20:46:25 - Starting epoch 14/50
+2025-03-18 20:48:27 - Epoch 14 completed. Average task loss: 31.6075
+2025-03-18 20:48:27 - Epoch: 14,   Valid_RUL_RMSE: 12.0518
+2025-03-18 20:48:27 - Test RMSE: 14.5325, Score: 1233.6549 on zero-shot mode
+2025-03-18 20:48:27 - Starting epoch 15/50
+2025-03-18 20:50:26 - Epoch 15 completed. Average task loss: 32.0754
+2025-03-18 20:50:26 - Epoch: 15,   Valid_RUL_RMSE: 12.0452
+2025-03-18 20:50:26 - Test RMSE: 14.5104, Score: 1225.4004 on zero-shot mode
+2025-03-18 20:50:26 - Starting epoch 16/50
+2025-03-18 20:52:26 - Epoch 16 completed. Average task loss: 31.2118
+2025-03-18 20:52:26 - Epoch: 16,   Valid_RUL_RMSE: 12.0729
+2025-03-18 20:52:26 - Test RMSE: 14.3780, Score: 1183.5629 on zero-shot mode
+2025-03-18 20:52:26 - Starting epoch 17/50
+2025-03-18 20:54:25 - Epoch 17 completed. Average task loss: 29.6951
+2025-03-18 20:54:25 - Epoch: 17,   Valid_RUL_RMSE: 11.9953
+2025-03-18 20:54:25 - Test RMSE: 14.3762, Score: 1189.8241 on zero-shot mode
+2025-03-18 20:54:25 - Starting epoch 18/50
+2025-03-18 20:56:31 - Epoch 18 completed. Average task loss: 28.8459
+2025-03-18 20:56:31 - Epoch: 18,   Valid_RUL_RMSE: 11.9363
+2025-03-18 20:56:31 - Test RMSE: 14.3076, Score: 1165.5437 on zero-shot mode
+2025-03-18 20:56:31 - Starting epoch 19/50
+2025-03-18 20:58:29 - Epoch 19 completed. Average task loss: 29.4422
+2025-03-18 20:58:29 - Epoch: 19,   Valid_RUL_RMSE: 11.9469
+2025-03-18 20:58:29 - Test RMSE: 14.2612, Score: 1163.2524 on zero-shot mode
+2025-03-18 20:58:29 - Starting epoch 20/50
+2025-03-18 21:00:27 - Epoch 20 completed. Average task loss: 29.9729
+2025-03-18 21:00:27 - Epoch: 20,   Valid_RUL_RMSE: 11.9521
+2025-03-18 21:00:27 - Test RMSE: 14.3905, Score: 1172.0322 on zero-shot mode
+2025-03-18 21:00:27 - Starting epoch 21/50
+2025-03-18 21:02:24 - Epoch 21 completed. Average task loss: 29.2344
+2025-03-18 21:02:25 - Epoch: 21,   Valid_RUL_RMSE: 12.0119
+2025-03-18 21:02:25 - Test RMSE: 14.3475, Score: 1177.1494 on zero-shot mode
+2025-03-18 21:02:25 - Starting epoch 22/50
+2025-03-18 21:04:23 - Epoch 22 completed. Average task loss: 29.0238
+2025-03-18 21:04:24 - Epoch: 22,   Valid_RUL_RMSE: 11.8900
+2025-03-18 21:04:24 - Test RMSE: 14.1675, Score: 1104.8319 on zero-shot mode
+2025-03-18 21:04:24 - Starting epoch 23/50
+2025-03-18 21:06:23 - Epoch 23 completed. Average task loss: 29.6863
+2025-03-18 21:06:23 - Epoch: 23,   Valid_RUL_RMSE: 11.9357
+2025-03-18 21:06:23 - Test RMSE: 14.1887, Score: 1114.8162 on zero-shot mode
+2025-03-18 21:06:23 - Starting epoch 24/50
+2025-03-18 21:08:22 - Epoch 24 completed. Average task loss: 27.4341
+2025-03-18 21:08:22 - Epoch: 24,   Valid_RUL_RMSE: 11.8906
+2025-03-18 21:08:22 - Test RMSE: 14.1544, Score: 1101.8090 on zero-shot mode
+2025-03-18 21:08:22 - Starting epoch 25/50
+2025-03-18 21:10:21 - Epoch 25 completed. Average task loss: 28.9699
+2025-03-18 21:10:21 - Epoch: 25,   Valid_RUL_RMSE: 11.9258
+2025-03-18 21:10:21 - Test RMSE: 14.1767, Score: 1103.6060 on zero-shot mode
+2025-03-18 21:10:21 - Starting epoch 26/50
+2025-03-18 21:12:19 - Epoch 26 completed. Average task loss: 29.3065
+2025-03-18 21:12:19 - Epoch: 26,   Valid_RUL_RMSE: 11.9225
+2025-03-18 21:12:19 - Test RMSE: 14.2085, Score: 1110.5193 on zero-shot mode
+2025-03-18 21:12:19 - Starting epoch 27/50
+2025-03-18 21:14:15 - Epoch 27 completed. Average task loss: 28.1692
+2025-03-18 21:14:15 - Epoch: 27,   Valid_RUL_RMSE: 11.8962
+2025-03-18 21:14:15 - Test RMSE: 14.2205, Score: 1132.1471 on zero-shot mode
+2025-03-18 21:14:15 - Starting epoch 28/50
+2025-03-18 21:16:14 - Epoch 28 completed. Average task loss: 28.0533
+2025-03-18 21:16:14 - Epoch: 28,   Valid_RUL_RMSE: 11.8085
+2025-03-18 21:16:14 - Test RMSE: 13.9553, Score: 1053.4541 on zero-shot mode
+2025-03-18 21:16:14 - Starting epoch 29/50
+2025-03-18 21:18:13 - Epoch 29 completed. Average task loss: 27.7990
+2025-03-18 21:18:13 - Epoch: 29,   Valid_RUL_RMSE: 11.8243
+2025-03-18 21:18:13 - Test RMSE: 13.8416, Score: 1049.7587 on zero-shot mode
+2025-03-18 21:18:13 - Starting epoch 30/50
+2025-03-18 21:20:12 - Epoch 30 completed. Average task loss: 26.4043
+2025-03-18 21:20:12 - Epoch: 30,   Valid_RUL_RMSE: 11.8074
+2025-03-18 21:20:12 - Test RMSE: 13.7512, Score: 1011.0720 on zero-shot mode
+2025-03-18 21:20:12 - Starting epoch 31/50
+2025-03-18 21:22:11 - Epoch 31 completed. Average task loss: 27.6209
+2025-03-18 21:22:11 - Epoch: 31,   Valid_RUL_RMSE: 11.7653
+2025-03-18 21:22:11 - Test RMSE: 13.7707, Score: 999.7740 on zero-shot mode
+2025-03-18 21:22:11 - Starting epoch 32/50
+2025-03-18 21:24:10 - Epoch 32 completed. Average task loss: 26.5542
+2025-03-18 21:24:10 - Epoch: 32,   Valid_RUL_RMSE: 11.7458
+2025-03-18 21:24:10 - Test RMSE: 13.6743, Score: 980.6950 on zero-shot mode
+2025-03-18 21:24:10 - Starting epoch 33/50
+2025-03-18 21:26:09 - Epoch 33 completed. Average task loss: 25.7408
+2025-03-18 21:26:09 - Epoch: 33,   Valid_RUL_RMSE: 11.7890
+2025-03-18 21:26:09 - Test RMSE: 13.6379, Score: 981.6405 on zero-shot mode
+2025-03-18 21:26:09 - Starting epoch 34/50
+2025-03-18 21:28:08 - Epoch 34 completed. Average task loss: 26.6574
+2025-03-18 21:28:08 - Epoch: 34,   Valid_RUL_RMSE: 11.7363
+2025-03-18 21:28:08 - Test RMSE: 13.5803, Score: 956.4399 on zero-shot mode
+2025-03-18 21:28:08 - Starting epoch 35/50
+2025-03-18 21:30:08 - Epoch 35 completed. Average task loss: 27.3732
+2025-03-18 21:30:08 - Epoch: 35,   Valid_RUL_RMSE: 11.7518
+2025-03-18 21:30:08 - Test RMSE: 13.5843, Score: 968.4452 on zero-shot mode
+2025-03-18 21:30:08 - Starting epoch 36/50
+2025-03-18 21:32:10 - Epoch 36 completed. Average task loss: 26.3245
+2025-03-18 21:32:10 - Epoch: 36,   Valid_RUL_RMSE: 11.7845
+2025-03-18 21:32:10 - Test RMSE: 13.6431, Score: 977.8720 on zero-shot mode
+2025-03-18 21:32:10 - Starting epoch 37/50
+2025-03-18 21:34:10 - Epoch 37 completed. Average task loss: 26.0618
+2025-03-18 21:34:10 - Epoch: 37,   Valid_RUL_RMSE: 11.7295
+2025-03-18 21:34:10 - Test RMSE: 13.5978, Score: 956.3116 on zero-shot mode
+2025-03-18 21:34:10 - Starting epoch 38/50
+2025-03-18 21:36:10 - Epoch 38 completed. Average task loss: 27.1205
+2025-03-18 21:36:10 - Epoch: 38,   Valid_RUL_RMSE: 11.8280
+2025-03-18 21:36:10 - Test RMSE: 13.5451, Score: 957.0846 on zero-shot mode
+2025-03-18 21:36:10 - Starting epoch 39/50
+2025-03-18 21:38:09 - Epoch 39 completed. Average task loss: 26.1903
+2025-03-18 21:38:09 - Epoch: 39,   Valid_RUL_RMSE: 11.8292
+2025-03-18 21:38:09 - Test RMSE: 13.5888, Score: 974.1627 on zero-shot mode
+2025-03-18 21:38:09 - Starting epoch 40/50
+2025-03-18 21:40:10 - Epoch 40 completed. Average task loss: 24.8518
+2025-03-18 21:40:10 - Epoch: 40,   Valid_RUL_RMSE: 11.7649
+2025-03-18 21:40:10 - Test RMSE: 13.5492, Score: 974.7640 on zero-shot mode
+2025-03-18 21:40:10 - Starting epoch 41/50
+2025-03-18 21:42:09 - Epoch 41 completed. Average task loss: 25.2080
+2025-03-18 21:42:09 - Epoch: 41,   Valid_RUL_RMSE: 11.8519
+2025-03-18 21:42:09 - Test RMSE: 13.4685, Score: 939.5420 on zero-shot mode
+2025-03-18 21:42:09 - Starting epoch 42/50
+2025-03-18 21:44:08 - Epoch 42 completed. Average task loss: 24.9070
+2025-03-18 21:44:08 - Epoch: 42,   Valid_RUL_RMSE: 11.9132
+2025-03-18 21:44:08 - Test RMSE: 13.6769, Score: 986.6076 on zero-shot mode
+2025-03-18 21:44:08 - Starting epoch 43/50
+2025-03-18 21:46:04 - Epoch 43 completed. Average task loss: 25.0820
+2025-03-18 21:46:04 - Epoch: 43,   Valid_RUL_RMSE: 11.8504
+2025-03-18 21:46:04 - Test RMSE: 13.5266, Score: 955.7253 on zero-shot mode
+2025-03-18 21:46:04 - Starting epoch 44/50
+2025-03-18 21:47:54 - Epoch 44 completed. Average task loss: 24.6694
+2025-03-18 21:47:54 - Epoch: 44,   Valid_RUL_RMSE: 12.0839
+2025-03-18 21:47:54 - Test RMSE: 13.6012, Score: 1001.1583 on zero-shot mode
+2025-03-18 21:47:54 - Starting epoch 45/50
+2025-03-18 21:49:55 - Epoch 45 completed. Average task loss: 23.8820
+2025-03-18 21:49:55 - Epoch: 45,   Valid_RUL_RMSE: 11.8585
+2025-03-18 21:49:55 - Test RMSE: 13.6512, Score: 1020.3362 on zero-shot mode
+2025-03-18 21:49:55 - Starting epoch 46/50
+2025-03-18 21:51:54 - Epoch 46 completed. Average task loss: 24.9794
+2025-03-18 21:51:54 - Epoch: 46,   Valid_RUL_RMSE: 11.9706
+2025-03-18 21:51:54 - Test RMSE: 13.4880, Score: 971.8087 on zero-shot mode
+2025-03-18 21:51:54 - Starting epoch 47/50
+2025-03-18 21:53:53 - Epoch 47 completed. Average task loss: 24.4890
+2025-03-18 21:53:53 - Epoch: 47,   Valid_RUL_RMSE: 11.9521
+2025-03-18 21:53:53 - Test RMSE: 13.5631, Score: 1024.9492 on zero-shot mode
+2025-03-18 21:53:53 - Starting epoch 48/50
+2025-03-18 21:55:52 - Epoch 48 completed. Average task loss: 23.8365
+2025-03-18 21:55:52 - Epoch: 48,   Valid_RUL_RMSE: 11.9402
+2025-03-18 21:55:52 - Test RMSE: 13.5707, Score: 1014.0483 on zero-shot mode
+2025-03-18 21:55:52 - Starting epoch 49/50
+2025-03-18 21:57:51 - Epoch 49 completed. Average task loss: 24.3445
+2025-03-18 21:57:51 - Epoch: 49,   Valid_RUL_RMSE: 12.0934
+2025-03-18 21:57:51 - Test RMSE: 13.4769, Score: 969.1676 on zero-shot mode
+2025-03-18 21:57:51 - Starting epoch 50/50
+2025-03-18 21:59:50 - Epoch 50 completed. Average task loss: 24.3949
+2025-03-18 21:59:50 - Epoch: 50,   Valid_RUL_RMSE: 12.1034
+2025-03-18 21:59:50 - Test RMSE: 13.6477, Score: 1040.8165 on zero-shot mode
+2025-03-31 17:50:54 - Starting model training...
+2025-03-31 17:50:54 - Starting epoch 1/50
+2025-03-31 17:50:54 - Starting epoch 2/50
+2025-03-31 17:50:55 - Starting epoch 3/50
+2025-03-31 17:50:55 - Starting epoch 4/50
+2025-03-31 17:50:56 - Starting epoch 5/50
+2025-03-31 17:50:56 - Starting epoch 6/50
+2025-03-31 17:50:56 - Starting epoch 7/50
+2025-03-31 17:50:57 - Starting epoch 8/50
+2025-03-31 17:50:57 - Starting epoch 9/50
+2025-03-31 17:50:57 - Starting epoch 10/50
+2025-03-31 17:50:58 - Starting epoch 11/50
+2025-03-31 17:50:58 - Starting epoch 12/50
+2025-03-31 17:50:58 - Starting epoch 13/50
+2025-03-31 17:50:59 - Starting epoch 14/50
+2025-03-31 17:50:59 - Starting epoch 15/50
+2025-03-31 17:50:59 - Starting epoch 16/50
+2025-03-31 17:51:00 - Starting epoch 17/50
+2025-03-31 17:51:00 - Starting epoch 18/50
+2025-03-31 17:51:00 - Starting epoch 19/50
+2025-03-31 17:51:01 - Starting epoch 20/50
+2025-03-31 17:51:01 - Starting epoch 21/50
+2025-03-31 17:51:01 - Starting epoch 22/50
+2025-03-31 17:51:02 - Starting epoch 23/50
+2025-03-31 17:51:02 - Starting epoch 24/50
+2025-03-31 17:51:02 - Starting epoch 25/50
+2025-03-31 17:51:03 - Starting epoch 26/50
+2025-03-31 17:51:03 - Starting epoch 27/50
+2025-03-31 17:51:03 - Starting epoch 28/50
+2025-03-31 17:51:04 - Starting epoch 29/50
+2025-03-31 17:51:04 - Starting epoch 30/50
+2025-03-31 17:51:04 - Starting epoch 31/50
+2025-03-31 17:51:05 - Starting epoch 32/50
+2025-03-31 17:51:05 - Starting epoch 33/50
+2025-03-31 17:51:05 - Starting epoch 34/50
+2025-03-31 17:51:06 - Starting epoch 35/50
+2025-03-31 17:51:06 - Starting epoch 36/50
+2025-03-31 17:51:06 - Starting epoch 37/50
+2025-03-31 17:51:07 - Starting epoch 38/50
+2025-03-31 17:51:07 - Starting epoch 39/50
+2025-03-31 17:51:07 - Starting epoch 40/50
+2025-03-31 17:51:08 - Starting epoch 41/50
+2025-03-31 17:51:08 - Starting epoch 42/50
+2025-03-31 17:51:08 - Starting epoch 43/50
+2025-03-31 17:51:09 - Starting epoch 44/50
+2025-03-31 17:51:09 - Starting epoch 45/50
+2025-03-31 17:51:09 - Starting epoch 46/50
+2025-03-31 17:51:10 - Starting epoch 47/50
+2025-03-31 17:51:10 - Starting epoch 48/50
+2025-03-31 17:51:10 - Starting epoch 49/50
+2025-03-31 17:51:11 - Starting epoch 50/50
