@@ -83,7 +83,7 @@ MKDPINN/
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/xxxxxx/MKDPINN.git 
+    git clone https://github.com/Sephiroth66616/MKDPINN.git 
     cd MKDPINN
     ```
 
