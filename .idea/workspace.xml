@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73296a25-ca65-4d4d-9ee8-f33d88f2e117" name="Changes" comment="update title">
+    <list default="true" id="15f25894-299b-4080-a556-60ae2337a785" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MKDPINN.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plot_result.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/plot_result.ipynb" afterDir="false" />
     </list>
@@ -13,41 +16,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-        <option value="Jupyter Notebook" />
-      </list>
-    </option>
-  </component>
-  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
-    <envs>
-      <env key="FLASK_APP" value="app" />
-    </envs>
-    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
-    <option name="myEnvs">
-      <map>
-        <entry key="FLASK_APP" value="app" />
-      </map>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2f2JbzGMFdnYXVSGmZpezaTVbSG" />
+  <component name="ProjectId" id="2v5BnO691C5aMxqGZbrc4Trbr8J" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,9 +35,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/my_python_code/博士工作（未完成）/AttnPINN-for-RUL-Estimation-English&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -68,31 +46,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AttnPINN-for-RUL-Estimation-English" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/测试.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AttnPINN-for-RUL-Estimation-English" />
+      <module name="MKDPINN" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -113,235 +69,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_pinn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AttnPINN-for-RUL-Estimation-English" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_pinn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main_pump" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AttnPINN-for-RUL-Estimation-English" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_pump.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main_pump" />
-        <item itemvalue="Python.main_pinn" />
-        <item itemvalue="Python.测试" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="73296a25-ca65-4d4d-9ee8-f33d88f2e117" name="Changes" comment="" />
-      <created>1712993316059</created>
+      <changelist id="15f25894-299b-4080-a556-60ae2337a785" name="Changes" comment="" />
+      <created>1743425222384</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1712993316059</updated>
-      <workItem from="1712993318157" duration="1690000" />
-      <workItem from="1713266744200" duration="395000" />
-      <workItem from="1713267150790" duration="3034000" />
-      <workItem from="1713329822731" duration="2316000" />
-      <workItem from="1713349260701" duration="984000" />
-      <workItem from="1713410700838" duration="698000" />
-      <workItem from="1713447850462" duration="45000" />
-      <workItem from="1713448749848" duration="2000" />
-      <workItem from="1713497962771" duration="6000" />
-      <workItem from="1713754851633" duration="58000" />
-      <workItem from="1713755393115" duration="5963000" />
-      <workItem from="1713857828966" duration="1325000" />
-      <workItem from="1713859698992" duration="2512000" />
-      <workItem from="1713941686667" duration="503000" />
-      <workItem from="1714030047466" duration="4468000" />
-      <workItem from="1714132791208" duration="786000" />
-      <workItem from="1714274950593" duration="9415000" />
-      <workItem from="1714898905646" duration="320000" />
-      <workItem from="1715069368348" duration="2195000" />
-      <workItem from="1715075020534" duration="225000" />
-      <workItem from="1715075256121" duration="9000" />
-      <workItem from="1715683529683" duration="3101000" />
-      <workItem from="1715760450717" duration="5425000" />
-      <workItem from="1715832291627" duration="860000" />
-      <workItem from="1715850029642" duration="2272000" />
-      <workItem from="1716970077944" duration="18000" />
-      <workItem from="1729907634029" duration="1378000" />
-      <workItem from="1729940892183" duration="5468000" />
-      <workItem from="1729991069684" duration="602000" />
-      <workItem from="1730107024281" duration="1188000" />
-      <workItem from="1731459813396" duration="3015000" />
-      <workItem from="1731718804096" duration="4953000" />
-      <workItem from="1731751582207" duration="9594000" />
-      <workItem from="1731776796168" duration="1437000" />
-      <workItem from="1731778248466" duration="40000" />
-      <workItem from="1731807117660" duration="7764000" />
-      <workItem from="1732089050003" duration="4370000" />
-      <workItem from="1732093446308" duration="2952000" />
-      <workItem from="1732149801771" duration="5867000" />
-      <workItem from="1732233176373" duration="4254000" />
-      <workItem from="1732362506778" duration="7788000" />
-      <workItem from="1732533220256" duration="4027000" />
-      <workItem from="1732537267798" duration="148000" />
-      <workItem from="1732537426672" duration="741000" />
-      <workItem from="1732545300177" duration="2557000" />
-      <workItem from="1732582930238" duration="3046000" />
-      <workItem from="1732587730612" duration="6956000" />
-      <workItem from="1732714056995" duration="5632000" />
-      <workItem from="1732757419732" duration="8705000" />
-      <workItem from="1732859249923" duration="788000" />
-      <workItem from="1733360657846" duration="6825000" />
-      <workItem from="1733484313672" duration="1014000" />
-      <workItem from="1733628466876" duration="8514000" />
-      <workItem from="1733658003265" duration="4110000" />
-      <workItem from="1733734368937" duration="1403000" />
-      <workItem from="1733819230681" duration="5919000" />
-      <workItem from="1733833137357" duration="1059000" />
-      <workItem from="1733995786013" duration="6156000" />
-      <workItem from="1734079963068" duration="20000" />
-      <workItem from="1734167755567" duration="4438000" />
-      <workItem from="1734249137662" duration="3434000" />
-      <workItem from="1734255546727" duration="48000" />
-      <workItem from="1734511470513" duration="1336000" />
-      <workItem from="1734522108807" duration="63000" />
-      <workItem from="1734524465497" duration="599000" />
-      <workItem from="1734597833468" duration="1048000" />
-      <workItem from="1734682961279" duration="490000" />
-      <workItem from="1734684178827" duration="55000" />
-      <workItem from="1734684301513" duration="603000" />
-      <workItem from="1734686904969" duration="720000" />
-      <workItem from="1734859833459" duration="680000" />
-      <workItem from="1734870165706" duration="1193000" />
-      <workItem from="1734942594372" duration="960000" />
-      <workItem from="1737627294424" duration="599000" />
-      <workItem from="1739446979951" duration="80000" />
-      <workItem from="1740829364001" duration="8494000" />
-      <workItem from="1740883985432" duration="4789000" />
-      <workItem from="1740991721263" duration="14850000" />
-      <workItem from="1741011415636" duration="4666000" />
-      <workItem from="1741075201335" duration="27184000" />
-      <workItem from="1741144392215" duration="18099000" />
-      <workItem from="1741249652016" duration="9363000" />
-      <workItem from="1741263494865" duration="20354000" />
-      <workItem from="1741350859045" duration="11651000" />
-      <workItem from="1741403227068" duration="3009000" />
-      <workItem from="1741406290143" duration="28000" />
-      <workItem from="1741408657207" duration="487000" />
-      <workItem from="1741491106940" duration="4554000" />
-      <workItem from="1741593700613" duration="6643000" />
-      <workItem from="1741601241930" duration="1738000" />
-      <workItem from="1741614822447" duration="595000" />
-      <workItem from="1741678394584" duration="3751000" />
-      <workItem from="1741686976483" duration="639000" />
-      <workItem from="1741694984485" duration="6606000" />
-      <workItem from="1741741690282" duration="2900000" />
-      <workItem from="1741766290469" duration="1000" />
-      <workItem from="1741774237085" duration="4879000" />
-      <workItem from="1741836678219" duration="4260000" />
-      <workItem from="1741915466736" duration="1875000" />
-      <workItem from="1742004702113" duration="4364000" />
-      <workItem from="1742111984797" duration="1317000" />
-      <workItem from="1742204127856" duration="1421000" />
-      <workItem from="1742267793144" duration="3420000" />
-      <workItem from="1742271764166" duration="788000" />
-      <workItem from="1742272784031" duration="3774000" />
-      <workItem from="1742300056323" duration="5142000" />
-      <workItem from="1742354231334" duration="6191000" />
-      <workItem from="1742372074659" duration="6822000" />
-      <workItem from="1742381716567" duration="868000" />
-      <workItem from="1742897259255" duration="1088000" />
-      <workItem from="1743150413463" duration="1420000" />
-      <workItem from="1743242929281" duration="1209000" />
-      <workItem from="1743398329849" duration="2360000" />
-      <workItem from="1743414541639" duration="146000" />
-      <workItem from="1743414977285" duration="1927000" />
-      <workItem from="1743417021926" duration="635000" />
-      <workItem from="1743417796592" duration="1380000" />
-      <workItem from="1743422794482" duration="1350000" />
+      <updated>1743425222384</updated>
+      <workItem from="1743425224198" duration="163000" />
+      <workItem from="1743425479676" duration="311000" />
     </task>
-    <task id="LOCAL-00001" summary="修改readme，去掉作者信息">
-      <option name="closed" value="true" />
-      <created>1743416511849</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1743416511849</updated>
-    </task>
-    <task id="LOCAL-00002" summary="修改readme">
-      <option name="closed" value="true" />
-      <created>1743418526864</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1743418526864</updated>
-    </task>
-    <task id="LOCAL-00003" summary="readme">
-      <option name="closed" value="true" />
-      <created>1743419011887</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1743419011887</updated>
-    </task>
-    <task id="LOCAL-00004" summary="update readme">
-      <option name="closed" value="true" />
-      <created>1743423376315</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1743423376315</updated>
-    </task>
-    <task id="LOCAL-00005" summary="update readme">
-      <option name="closed" value="true" />
-      <created>1743423776696</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1743423776696</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update title">
-      <option name="closed" value="true" />
-      <created>1743423853361</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1743423853361</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,28 +102,7 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改readme，去掉作者信息" />
-    <MESSAGE value="修改readme" />
-    <MESSAGE value="readme" />
-    <MESSAGE value="update readme" />
-    <MESSAGE value="update title" />
-    <option name="LAST_COMMIT_MESSAGE" value="update title" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="x" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/META_PINN_2025$main_pinn.coverage" NAME="main_pinn Coverage Results" MODIFIED="1741783759329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MKDPINN$main.coverage" NAME="main Coverage Results" MODIFIED="1743414646406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/META_PINN_2025$main.coverage" NAME="main Coverage Results" MODIFIED="1742204334566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AttnPINN_for_RUL_Estimation_English$main.coverage" NAME="main Coverage Results" MODIFIED="1731462559837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSAttnPINN_with_UQ_for_RUL$main.coverage" NAME="main Coverage Results" MODIFIED="1734942950230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/META_PINN_2025$main_pump.coverage" NAME="main_pump Coverage Results" MODIFIED="1741915860630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MSAttnPINN_with_UQ_for_RUL$.coverage" NAME="测试 Coverage Results" MODIFIED="1737627872356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MKDPINN$main.coverage" NAME="main Coverage Results" MODIFIED="1743425243819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
