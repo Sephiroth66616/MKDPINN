@@ -161,8 +161,8 @@ If you use this code in your research, please cite our paper:
 
 ```
 @article{your_paper_citation,
-  title     = {My Paper Title },
-  author    = {Yu Wang, xxxx},
+  title     = {xxxx},
+  author    = {xxxx},
   journal   = {xxxx},
   year      = {xxxx},
   publisher = {xxxx}
