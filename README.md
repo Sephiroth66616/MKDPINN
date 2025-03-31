@@ -1,6 +1,6 @@
 ![MKDPINN: Meta Learning and Knowledge Discovery-Based Physics-Informed Neural Networks](img%2Fbanner.jpeg)
 
-# MKDPINN: Meta Knowledge Discovery-Based Physics-Informed Neural Networks
+# MKDPINN: Meta Learning and Knowledge Discovery-Based Physics-Informed Neural Networks
 
 <p align="center">
   <a href="https://github.com/Sephiroth66616/MKDPINN">
