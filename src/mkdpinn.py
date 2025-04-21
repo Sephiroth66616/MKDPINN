@@ -110,13 +110,6 @@ class MKDPINN(nn.Module):
             write_log("Resuming from checkpoint...")
             early_stopping.load_checkpoint(self.hsm, self.predictor, self.pgr)
 
-        print(
-            "The full training code is currently withheld for peer review. "
-            "It will be released upon paper acceptance. "
-            "For now, please use the trained weights (`model.test()`). "
-            "Contact wy1475899830@163.com for exceptions."
-        )
-
         for epoch in range(self.outer_iterations):
             write_log(f"Starting epoch {epoch + 1}/{self.outer_iterations}")
             task_loss_total = 0
@@ -127,6 +120,115 @@ class MKDPINN(nn.Module):
             total_tasks = len(dataset_list)
 
 
+            with tqdm(total=total_tasks, desc=f"Epoch {epoch + 1}/{self.outer_iterations}", unit=" meta-tasks") as pbar:
+                for i in range(0, total_tasks, self.meta_batch_size):
+
+                    meta_batch = dataset_list[i:min(i + self.meta_batch_size, total_tasks)]
+
+                    # Save the original model parameters
+                    original_weights_xnn = deepcopy(self.hsm.state_dict())
+                    original_weights_mlp = deepcopy(self.predictor.state_dict())
+                    original_weights_deepHPM = deepcopy(self.pgr.state_dict())
+
+                    # Store updated parameters for all tasks
+                    updated_weights = {
+                        'hsm': [],
+                        'predictor': [],
+                        'pgr': []
+                    }
+
+                    batch_loss = 0
+                    for task_idx, meta_task_data in enumerate(meta_batch):
+                        x_task, t_task, rul_task = meta_task_data
+                        num_samples = x_task.size(0)
+                        x_task = x_task.to(device)
+                        rul_task = rul_task.to(device)
+                        t_task = t_task.to(device)
+
+                        # Reset the model to its original parameters
+                        self.hsm.load_state_dict(original_weights_xnn)
+                        self.predictor.load_state_dict(original_weights_mlp)
+                        self.pgr.load_state_dict(original_weights_deepHPM)
+
+                        # Create a task-specific optimizer
+                        task_optim = Adam([
+                            {'params': self.hsm.parameters()},
+                            {'params': self.predictor.parameters()},
+                            {'params': self.pgr.parameters()}
+                        ], lr=self.lr)
+
+                        # Inner loop training
+                        inner_batch_size = min(self.inner_batch_size, num_samples)
+                        for inner_step in range(self.inner_steps):
+                            indices = torch.randperm(num_samples).to(device)
+                            for start_idx in range(0, num_samples, inner_batch_size):
+                                batch_indices = indices[start_idx:start_idx + inner_batch_size]
+                                x_batch = x_task[batch_indices]
+                                rul_batch = rul_task[batch_indices]
+                                t_batch = t_task[batch_indices].reshape(-1, 1)
+
+                                # Forward propagation and loss calculation
+                                u, h = self.predict_rul_and_hidden(x_batch, t_batch)
+                                f = self.compute_pde_residual(x_batch, t_batch)
+                                loss1 = MSE(u, rul_batch)
+                                loss2 = MSE(f, torch.zeros(f.shape).to(device))
+                                loss = loss1 + loss2
+
+                                # Inner loop optimization - using task-specific optimizer
+                                task_optim.zero_grad()
+                                loss.backward()
+                                task_optim.step()
+
+                        # Record the final loss of this task
+                        batch_loss += loss.item()
+
+                        # Store updated parameters
+                        updated_weights['hsm'].append(deepcopy(self.hsm.state_dict()))
+                        updated_weights['predictor'].append(deepcopy(self.predictor.state_dict()))
+                        updated_weights['pgr'].append(deepcopy(self.pgr.state_dict()))
+
+                        task_count += 1
+                        pbar.update(1)
+
+                    # Calculate the average loss
+                    batch_size = len(meta_batch)
+                    batch_loss /= batch_size
+                    task_loss_total += batch_loss
+
+                    # meta-update: restore original parameters and move in the updated direction
+                    self.hsm.load_state_dict(original_weights_xnn)
+                    self.predictor.load_state_dict(original_weights_mlp)
+                    self.pgr.load_state_dict(original_weights_deepHPM)
+
+                    # Perform a meta-update for each model - make sure the update is in the right direction
+                    for model_name, model in zip(['hsm', 'predictor', 'pgr'], [self.hsm, self.predictor, self.pgr]):
+                        original_weights = original_weights_xnn if model_name == 'hsm' else (
+                            original_weights_mlp if model_name == 'predictor' else original_weights_deepHPM)
+
+                        for name, param in model.named_parameters():
+                            if param.requires_grad:
+                                # Calculate the average of the parameter differences
+                                update = torch.zeros_like(param.data)
+                                for task_weights in updated_weights[model_name]:
+                                    update += task_weights[name] - original_weights[name]
+                                update /= batch_size
+
+                                # Applying meta updates
+                                param.data = original_weights[name] + self.outer_step_size * update
+
+                    # Update progress bar information
+                    pbar.set_postfix(avg_loss=task_loss_total / task_count)
+
+                # Verify and test after each epoch
+                write_log(f"Epoch {epoch + 1} completed. Average task loss: {task_loss_total / task_count:.4f}")
+                self.validate(dataset_val, epoch, MSE, early_stopping)
+                self.test(dataset_test, MSE)
+
+                if early_stopping.early_stop:
+                    write_log("Early stopping triggered.")
+                    print("Early Stopping")
+                    log_file.close()
+                    break
 
         log_file.close()
     def validate(self, validation_dataset, epoch, MSE, early_stopping):

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f25894-299b-4080-a556-60ae2337a785" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/MKDPINN.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="15f25894-299b-4080-a556-60ae2337a785" name="Changes" comment="2025/03/31/22:17">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plot_result.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/plot_result.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mkdpinn.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/mkdpinn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training.log" beforeDir="false" afterPath="$PROJECT_DIR$/training.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,40 @@
       <updated>1743425222384</updated>
       <workItem from="1743425224198" duration="163000" />
       <workItem from="1743425479676" duration="311000" />
+      <workItem from="1743429911665" duration="799000" />
+      <workItem from="1743430732003" duration="102000" />
+      <workItem from="1743430842309" duration="42000" />
+      <workItem from="1743430891028" duration="36000" />
+      <workItem from="1743430978348" duration="158000" />
+      <workItem from="1743675464218" duration="307000" />
+      <workItem from="1744120366234" duration="37000" />
+      <workItem from="1745224147960" duration="347000" />
     </task>
+    <task id="LOCAL-00001" summary="2025/03/31/22:08">
+      <option name="closed" value="true" />
+      <created>1743430097550</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743430097550</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2025/03/31/22:10">
+      <option name="closed" value="true" />
+      <created>1743430235125</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743430235125</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2025/03/31/22:17">
+      <option name="closed" value="true" />
+      <created>1743430631428</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743430631428</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +135,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2025/03/31/22:08" />
+    <MESSAGE value="2025/03/31/22:10" />
+    <MESSAGE value="2025/03/31/22:17" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025/03/31/22:17" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MKDPINN$main.coverage" NAME="main Coverage Results" MODIFIED="1743425243819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MKDPINN$main.coverage" NAME="main Coverage Results" MODIFIED="1745224176616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

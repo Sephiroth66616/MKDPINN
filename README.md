@@ -60,12 +60,6 @@ MKDPINN/
 └── results/          (Trained models and logs will be saved here)
 ```
 
-## Current Code Availability
-- ✅ **Publicly available**: Model architecture and trained weights
-- ✅ **Publicly available**: Complete test code
-- 🔒 **To be released upon paper acceptance**: Full training code (Meta-parameter update within the PINN framework)
-
-
 # Attempting to call train() will display:
 ```python
 "Training code reserved for peer review. Full implementation will be released upon paper acceptance."
@@ -163,12 +157,16 @@ The following table compares the performance of MKDPINN with recently published 
 If you use this code in your research, please cite our paper:
 
 ```
-@article{my_paper_citation,
-  title     = {xxxx},
-  author    = {xxxx},
-  journal   = {xxxx},
-  year      = {xxxx},
-  publisher = {xxxx}
+@article{wang2025mkdpinn,
+  title     = {Meta-Learning and Knowledge Discovery based Physics-Informed Neural Network for Remaining Useful Life Prediction},
+  author    = {Wang, Yu and Liu, Shujie and Lv, Shuai and Liu, Gengshuo},
+  journal   = {arXiv preprint arXiv:2504.13797},
+  year      = {2025},
+  eprint    = {2504.13797},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG},
+  doi       = {10.48550/arXiv.2504.13797},
+  url       = {https://arxiv.org/abs/2504.13797}
 }
 ```
 
