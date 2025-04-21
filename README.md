@@ -60,10 +60,7 @@ MKDPINN/
 └── results/          (Trained models and logs will be saved here)
 ```
 
-# Attempting to call train() will display:
-```python
-"Training code reserved for peer review. Full implementation will be released upon paper acceptance."
-```
+
 ## Getting Started
 
 ### 1. Prerequisites
